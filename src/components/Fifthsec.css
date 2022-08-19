@@ -232,25 +232,19 @@
     min-width: 100% !important;
     height: 5rem;
 }
-.thirdsection1.row{
-    /* height: 50rem; */
-}
+
 @media only screen and (max-width: 760px){
     .thirdsection1 .col6{
         min-width: 23% !important;
         display: contents ;
     }
-    .thirdsection1.row{
-        /* height: 100rem; */
-    }
+   
     .thirdsection1 .col4{
         min-width: 23% !important;
         /* display: contents ; */
     }
    
-    .thirdsection1{
-        /* margin: 12px !important; */
-    }
+    
     .col4{
         object-fit: cover;
     /* width: 200px; */

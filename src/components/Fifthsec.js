@@ -3,7 +3,7 @@ import "./Fifthsec.css";
 // import logo1 from "./hey.jpg";
 // import logo2 from "./interior1.jpg";
 // import logo3 from "./hhh.jpg";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 
 function Fifthsec() {
@@ -15,31 +15,22 @@ function Fifthsec() {
             <Row>
               <p className="para"></p>
               <br />
-              <h4>Jaleel Holdings</h4>
+              <h4>Our Businesses</h4>
               <br />
               <p className="p1">
-                Jaleel Holdings LLC, headquartered in Dubai, is a UAE based
-                Investment Company with businesses in diverse sectors like
-                Consumer Products distribution, retail, wholesale, food
-                processing, and education. Synonymous with trust, quality and
-                sustainability, this service-oriented company is one of the
-                largest wholesale distributors of food in the Middle East.
+                With interests predominantly in the trading and distribution of
+                fresh fruits, vegetables and Fast Moving Consumer Goods (FMCG),
+                Jaleel Holdings owns and operates multiple wholesale, retail and
+                distribution companies. They cater to more than 10,000 retailers
+                including grocers, supermarkets/hypermarkets, hotels,
+                restaurants, and catering (HORECA) segment at competitive
               </p>
-              <p>
-                The company streamlined its operations bringing all businesses
-                under the umbrella of Jaleel Holdings in 2008. As followed
-                within each company, the name now stands for quality,
-                consistency and sustainability, which are hallmarks cascaded
-                across the organization.
-              </p>
+              
             </Row>
           </Col>
 
           <Col className="col5">
-            <Row>
-              
-             
-            </Row>
+          
           </Col>
         </Row>
         
