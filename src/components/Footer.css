@@ -1,0 +1,21 @@
+.footer1{
+    font-family: 'Montserrat', sans-serif;
+    height: 5rem;
+   
+}
+.footer{
+    background-color: #4F4F4F;
+    min-width: 100% !important;
+}
+#link1{
+    color: #fff !important;
+    font-size: 13px;
+}
+
+.copy{
+    text-align: center !important;
+    color: #bab1b1;
+    font-size: 1rem;
+    
+}
+

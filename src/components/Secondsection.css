@@ -1,0 +1,233 @@
+.col1{
+    
+    height: 21rem;
+    padding-top: 4rem;
+    background-color: brown;
+    bottom: 15rem;
+    top: 23rem;
+    /* margin: 2rem; */
+    margin-top: 0rem;
+    animation-duration: 3s;
+  animation-name: col1;
+  /* flex: 1;
+  flex-Direction: "row";
+
+  align-items: center; */
+  
+ 
+  
+    
+}
+.p1{
+    font-style:italic ;
+}
+
+.col2{
+    
+    height: 21rem;
+    padding-top: 4rem;
+    background-color: #fff;
+    bottom: 15rem;
+    top: 23rem;
+    /* margin: 2rem; */
+    margin-top: 0rem;
+    animation-duration: 3s;
+  animation-name: col1;
+  /* flex: 1;
+  flex-Direction: "row";
+
+  align-items: center; */
+  
+ 
+  
+    
+}
+.col3{
+    
+    height: 21rem;
+    padding-top: 4rem;
+    background-color: #fff;;
+    bottom: 15rem;
+    top: 23rem;
+    /* margin: 2rem; */
+    margin-top: 0rem;
+    
+  
+ 
+  /* flex: 1;
+  flex-Direction: "row";
+
+  align-items: center; */
+  
+ 
+  
+    
+}
+/* .thirdsection{
+    width: 120%;
+} */
+.col1:hover{
+    top:100px;
+  }
+.col {
+    flex: 1 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 23rem;
+    /* word-break: break-all; */
+}
+.h2{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    /* margin-top: 1rem; */
+    
+    padding-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.parag{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0rem;
+    padding-top: 0%;
+}
+.parag1{
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0rem;
+    padding-top: 0%;
+}
+.parag2{
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.title{
+    padding-left: 2rem;
+}
+.para{
+    padding-top: 6rem;
+}.col4{
+    background-image: url(/src/components/dubai.jpg);
+    object-fit: cover;
+    /* width: 200px; */
+    height: 40rem;
+    max-width: 100%;
+    vertical-align: initial;
+    border-style: none;
+    background-size: cover;
+    margin: 3rem;
+    animation-duration: 3s;
+    animation-name: slidein;
+    /* animation-iteration-count: infinite; */
+    flex: 1;
+
+  
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.col6{
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 650px){
+    .secondsection .col{
+        min-width: 100% !important;
+    }
+    .secondsection{
+        margin: 7px !important;
+    }
+}
+@media only screen and (min-width: 650px){
+    .secondsection .col{
+        min-width: 40% !important;
+    }
+    .secondsection{
+        margin: 12px !important;
+    }
+}
+@media only screen and (min-width: 950px){
+    .secondsection .col{
+        min-width: 23% !important;
+    }
+    .secondsection{
+        margin: 12px !important;
+    }
+}
+/* 3rd sec */
+@media only screen and (max-width: 760px){
+    .thirdsection .col6{
+        min-width: 23% !important;
+        display: contents ;
+    }
+    .thirdsection .col4{
+        min-width: 23% !important;
+        /* display: contents ; */
+    }
+   
+    .thirdsection{
+        margin: 12px !important;
+    }
+    .col4{
+        object-fit: cover;
+    /* width: 200px; */
+    height: 40rem;
+    display: flex;
+    /* min-width: 100%; */
+    /* margin: 2rem; */
+/*     
+    border-style: none; */
+    
+    background-size:   cover;
+    margin: 3rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    .col4{
+        /* width: 100%; */
+        /* max-width: 400px; */
+        /* min-width: 70%; */
+        margin: 1rem;
+        background-size:cover !important ;
+        object-fit: fill !important;
+        width: 12rem;
+       
+    }
+    .col4.col{
+        min-width: 320px !important;
+        margin: 1rem !important;
+        
+    }
+    /* #carousel-example-generic .carousel-inner .item img{
+        width: 100%;
+        height: 100%;
+      } */
+    
+    /*  */
+    
+    
+}
+

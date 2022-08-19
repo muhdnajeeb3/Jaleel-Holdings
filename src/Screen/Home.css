@@ -1,0 +1,14 @@
+.logo{
+    /* width: 100px; */
+  height: 100px;
+  
+  animation-name: example;
+  animation-duration: 4s;
+  
+height: 500px;
+position: relative;
+animation: floatBubble 2s inifnate;
+
+animation-timing-function: ease-out;
+
+}
