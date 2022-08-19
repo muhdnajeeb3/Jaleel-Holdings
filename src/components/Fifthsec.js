@@ -38,58 +38,13 @@ function Fifthsec() {
           <Col className="col5">
             <Row>
               
-              {/* <Carousel className="caro">
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={logo1}
-                    alt="First slide"
-                    id="profile-image"
-                  />
-                  <Carousel.Caption>
-                    <h3 className="par1">WELCOME JALEEL HOLDINGS</h3>
-                    <p className="par1">
-                      Navigating Towards Sustainable Growth
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={logo2}
-                    alt="Second slide"
-                  />
-
-                  <Carousel.Caption>
-                    <h3 className="par1">JALEEL HOLDINGS</h3>
-                    <p className="par1">Trusted Name In The Business Network</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={logo3}
-                    alt="Third slide"
-                  />
-
-                  <Carousel.Caption>
-                    <h3 className="par1">JALEEL HOLDINGS</h3>
-                    <p className="par1">
-                      50 Years of Commitment <br></br>Towards Excellence
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel> */}
+             
             </Row>
           </Col>
         </Row>
         
       </Container>
-      {/* <Container>
-        <Row className="foooter">
-hh
-        </Row>
-      </Container> */}
+      
     </>
   );
 }
